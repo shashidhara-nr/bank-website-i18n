@@ -1,0 +1,342 @@
+.bank-page {
+  min-height: 100vh;
+  background: #f3f4f8;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.topbar {
+  background: linear-gradient(90deg, #f0821e 0%, #dc5d1c 100%);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 16px; */
+}
+
+.brand-prefix {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0;
+  opacity: 0.95;
+}
+
+.topbar h1 {
+  margin: 4px 0 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.pill-btn,
+.lang-select {
+  border: 0;
+  border-radius: 999px;
+  background: #fff;
+  color: #495168;
+  font-weight: 600;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.user-pill {
+  min-width: 150px;
+}
+
+.user-menu {
+  position: relative;
+}
+
+.user-menu-toggle {
+  width: 100%;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 150px;
+  background: #fff;
+  border: 1px solid #dce0ea;
+  border-radius: 10px;
+  padding: 6px;
+  z-index: 10;
+}
+
+.dropdown-item {
+  border: 0;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  color: #495168;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #fff7ef;
+  color: #f0821e;
+}
+
+.content-wrap {
+  padding: 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  min-height: 0;
+}
+
+.left-nav {
+  background: #ffffff;
+  border-right: 1px solid #e4e7ef;
+  padding: 16px;
+}
+
+.nav-menu {
+  display: grid;
+  gap: 8px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #495168;
+  border: 1px solid #dce0ea;
+  border-radius: 10px;
+  background: #fff;
+  font-weight: 600;
+  padding: 11px 12px;
+}
+
+.nav-link-active {
+  background: #fff7ef;
+  border-color: #f0bf8a;
+  color: #f0821e;
+}
+
+.page-head h2,
+.single-panel h2 {
+  margin: 0;
+  color: #2c354c;
+}
+
+.single-panel {
+  align-content: start;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.support-item {
+  border: 1px solid #e4e7ef;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.support-item h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #4f5770;
+}
+
+.support-item p {
+  margin: 8px 0 0;
+  color: #2c354c;
+  font-weight: 600;
+}
+
+.cards-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.summary-card,
+.panel,
+.actions-panel {
+  background: #fff;
+  border: 1px solid #e4e7ef;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.summary-card p {
+  margin: 0;
+  color: #5c647d;
+  font-weight: 600;
+}
+
+.summary-card strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 28px;
+  color: #273046;
+}
+
+.summary-card span {
+  display: block;
+  margin-top: 6px;
+  color: #717992;
+  font-size: 14px;
+}
+
+.actions-panel h2,
+.panel h3 {
+  margin: 0;
+  color: #2c354c;
+}
+
+.subtext {
+  margin: 6px 0 12px;
+  color: #69718a;
+}
+
+.actions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.outline-btn {
+  border: 1px solid #f0bf8a;
+  background: #fff7ef;
+  color: #455071;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.forms-grid,
+.charts-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.forms-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.charts-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.panel form {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.panel label {
+  font-size: 14px;
+  color: #4f5770;
+  font-weight: 600;
+}
+
+.panel input,
+.panel select {
+  border: 1px solid #dce0ea;
+  border-radius: 9px;
+  padding: 10px;
+  font: inherit;
+}
+
+.primary-btn {
+  margin-top: 8px;
+  border: 0;
+  border-radius: 10px;
+  background: #f0821e;
+  color: #fff;
+  font-weight: 700;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.chart-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-head span {
+  color: #6d7590;
+  font-size: 13px;
+}
+
+.chart-box {
+  height: 250px;
+}
+
+.pie-box {
+  height: 260px;
+}
+
+body[dir="rtl"] .bank-page {
+  direction: rtl;
+}
+
+body[dir="rtl"] .left-nav {
+  border-left: 1px solid #e4e7ef;
+  border-right: 0;
+}
+
+body[dir="rtl"] .user-dropdown {
+  left: 0;
+  right: auto;
+}
+
+body[dir="rtl"] .dropdown-item {
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .left-nav {
+    border-right: 0;
+    border-bottom: 1px solid #e4e7ef;
+  }
+
+  .cards-row,
+  .actions-grid,
+  .forms-grid,
+  .charts-grid,
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topbar-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

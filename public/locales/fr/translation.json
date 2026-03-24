@@ -1,0 +1,109 @@
+{
+  "header": {
+    "bankName": "Banque ICICI",
+    "portalTitle": "Tableau de bord bancaire intelligent",
+    "contact": "Appelez-nous 1800 1080",
+    "demo": "Voir la démo",
+    "user": "SHASHIDHARA N R",
+    "logout": "Se déconnecter"
+  },
+  "navigation": {
+    "ariaLabel": "Navigation principale",
+    "accounts": "Comptes",
+    "paymentsTransfer": "Paiement et transfert",
+    "cards": "Cartes",
+    "customerSupport": "Support client"
+  },
+  "pages": {
+    "accounts": {
+      "title": "Vue des comptes",
+      "description": "Consultez les soldes, actions, formulaires et graphiques financiers."
+    },
+    "paymentsTransfer": {
+      "title": "Paiement et transfert",
+      "description": "Gérez les paiements de factures et les virements."
+    },
+    "cards": {
+      "title": "Cartes",
+      "description": "Consultez votre portefeuille de cartes et leurs statuts."
+    },
+    "customerSupport": {
+      "title": "Support client",
+      "description": "Obtenez de l'aide pour les services bancaires et la résolution des problèmes.",
+      "phoneLabel": "Téléphone",
+      "emailLabel": "E-mail",
+      "timingLabel": "Heures d'ouverture",
+      "phoneValue": "+91 1800 1080",
+      "emailValue": "support@icicibank.com",
+      "timingValue": "Lun-Sam, 09:00 - 20:00"
+    }
+  },
+  "summary": {
+    "balanceTitle": "Valeur du portefeuille",
+    "balanceDesc": "Au 24 mars 2026 · 11:55 IST",
+    "investmentTitle": "Investissements",
+    "investmentDesc": "Fonds communs et dépôts à terme",
+    "loanTitle": "Encours total",
+    "loanDesc": "Prêt immobilier et prêt personnel"
+  },
+  "actions": {
+    "title": "Actions rapides",
+    "description": "Utilisez des raccourcis bancaires pour les opérations courantes.",
+    "transferFunds": "Transférer des fonds",
+    "payBills": "Payer les factures",
+    "openFd": "Ouvrir un dépôt",
+    "requestCard": "Demander une carte"
+  },
+  "forms": {
+    "transfer": {
+      "title": "Formulaire de virement",
+      "from": "Depuis le compte",
+      "fromPlaceholder": "Entrez le compte source",
+      "to": "Vers le compte",
+      "toPlaceholder": "Entrez le compte destinataire",
+      "amount": "Montant",
+      "amountPlaceholder": "Entrez le montant",
+      "submit": "Transférer maintenant"
+    },
+    "account": {
+      "title": "Ouvrir un nouveau compte",
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Entrez le nom complet",
+      "email": "E-mail",
+      "emailPlaceholder": "Entrez l'adresse e-mail",
+      "type": "Type de compte",
+      "typePlaceholder": "Sélectionnez le type de compte",
+      "types": {
+        "savings": "Épargne",
+        "current": "Courant",
+        "salary": "Salaire"
+      },
+      "submit": "Créer un compte"
+    }
+  },
+  "charts": {
+    "trendTitle": "Tendance des revenus mensuels",
+    "trendLabel": "6 derniers mois",
+    "expenseTitle": "Répartition des dépenses",
+    "cardTitle": "Cartes par statut",
+    "months": {
+      "jan": "Jan",
+      "feb": "Fév",
+      "mar": "Mar",
+      "apr": "Avr",
+      "may": "Mai",
+      "jun": "Jun"
+    },
+    "expense": {
+      "housing": "Logement",
+      "utilities": "Services",
+      "shopping": "Achats",
+      "travel": "Voyage"
+    },
+    "cards": {
+      "active": "Actives",
+      "blocked": "Bloquées",
+      "pending": "En attente"
+    }
+  }
+}

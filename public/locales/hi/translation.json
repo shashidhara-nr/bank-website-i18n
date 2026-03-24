@@ -1,0 +1,109 @@
+{
+  "header": {
+    "bankName": "आईसीआईसीआई बैंक",
+    "portalTitle": "स्मार्ट बैंकिंग डैशबोर्ड",
+    "contact": "हमें कॉल करें 1800 1080",
+    "demo": "डेमो देखें",
+    "user": "SHASHIDHARA N R",
+    "logout": "लॉगआउट"
+  },
+  "navigation": {
+    "ariaLabel": "मुख्य नेविगेशन",
+    "accounts": "अकाउंट्स",
+    "paymentsTransfer": "पेमेंट और ट्रांसफर",
+    "cards": "कार्ड्स",
+    "customerSupport": "कस्टमर सपोर्ट"
+  },
+  "pages": {
+    "accounts": {
+      "title": "अकाउंट्स ओवरव्यू",
+      "description": "खाते की शेष राशि, त्वरित कार्य, फॉर्म और वित्तीय चार्ट देखें।"
+    },
+    "paymentsTransfer": {
+      "title": "पेमेंट और ट्रांसफर",
+      "description": "बिल भुगतान और धन ट्रांसफर प्रबंधित करें।"
+    },
+    "cards": {
+      "title": "कार्ड्स",
+      "description": "अपने कार्ड पोर्टफोलियो और कार्ड स्थिति की जानकारी देखें।"
+    },
+    "customerSupport": {
+      "title": "कस्टमर सपोर्ट",
+      "description": "बैंकिंग सेवाओं और समस्या समाधान के लिए सहायता प्राप्त करें।",
+      "phoneLabel": "फ़ोन",
+      "emailLabel": "ईमेल",
+      "timingLabel": "कार्य समय",
+      "phoneValue": "+91 1800 1080",
+      "emailValue": "support@icicibank.com",
+      "timingValue": "सोम-शनि, सुबह 9:00 बजे - शाम 8:00 बजे"
+    }
+  },
+  "summary": {
+    "balanceTitle": "पोर्टफोलियो वैल्यू",
+    "balanceDesc": "24 मार्च 2026 · 11:55 IST तक",
+    "investmentTitle": "निवेश",
+    "investmentDesc": "म्यूचुअल फंड और फिक्स्ड डिपॉजिट",
+    "loanTitle": "कुल बकाया",
+    "loanDesc": "होम लोन और पर्सनल लोन"
+  },
+  "actions": {
+    "title": "त्वरित कार्य",
+    "description": "सामान्य कार्यों को जल्दी पूरा करने के लिए बैंकिंग शॉर्टकट का उपयोग करें।",
+    "transferFunds": "फंड ट्रांसफर",
+    "payBills": "बिल भुगतान",
+    "openFd": "एफडी खोलें",
+    "requestCard": "कार्ड अनुरोध"
+  },
+  "forms": {
+    "transfer": {
+      "title": "फंड ट्रांसफर फॉर्म",
+      "from": "किस खाते से",
+      "fromPlaceholder": "स्रोत खाता दर्ज करें",
+      "to": "किस खाते में",
+      "toPlaceholder": "गंतव्य खाता दर्ज करें",
+      "amount": "राशि",
+      "amountPlaceholder": "राशि दर्ज करें",
+      "submit": "अभी ट्रांसफर करें"
+    },
+    "account": {
+      "title": "नया खाता खोलें",
+      "fullName": "पूरा नाम",
+      "fullNamePlaceholder": "पूरा नाम दर्ज करें",
+      "email": "ईमेल",
+      "emailPlaceholder": "ईमेल पता दर्ज करें",
+      "type": "खाते का प्रकार",
+      "typePlaceholder": "खाते का प्रकार चुनें",
+      "types": {
+        "savings": "सेविंग",
+        "current": "करंट",
+        "salary": "सैलरी"
+      },
+      "submit": "खाता बनाएं"
+    }
+  },
+  "charts": {
+    "trendTitle": "मासिक आय रुझान",
+    "trendLabel": "पिछले 6 महीने",
+    "expenseTitle": "खर्च वितरण",
+    "cardTitle": "स्थिति अनुसार कार्ड",
+    "months": {
+      "jan": "जन",
+      "feb": "फर",
+      "mar": "मार्च",
+      "apr": "अप्रै",
+      "may": "मई",
+      "jun": "जून"
+    },
+    "expense": {
+      "housing": "आवास",
+      "utilities": "यूटिलिटी",
+      "shopping": "खरीदारी",
+      "travel": "यात्रा"
+    },
+    "cards": {
+      "active": "सक्रिय",
+      "blocked": "ब्लॉक्ड",
+      "pending": "लंबित"
+    }
+  }
+}

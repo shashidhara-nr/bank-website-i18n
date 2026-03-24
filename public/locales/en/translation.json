@@ -1,0 +1,109 @@
+{
+  "header": {
+    "bankName": "ICICI Bank",
+    "portalTitle": "Internet Banking Dashboard",
+    "contact": "Call Us 1800 1080",
+    "demo": "View Demo",
+    "user": "SHASHIDHARA N R",
+    "logout": "Logout"
+  },
+  "navigation": {
+    "ariaLabel": "Primary navigation",
+    "accounts": "Accounts",
+    "paymentsTransfer": "Payment & Transfer",
+    "cards": "Cards",
+    "customerSupport": "Customer Support"
+  },
+  "pages": {
+    "accounts": {
+      "title": "Accounts Overview",
+      "description": "View account balances, actions, forms, and financial charts."
+    },
+    "paymentsTransfer": {
+      "title": "Payment & Transfer",
+      "description": "Manage bill payments and money transfers."
+    },
+    "cards": {
+      "title": "Cards",
+      "description": "Review your card portfolio and card status insights."
+    },
+    "customerSupport": {
+      "title": "Customer Support",
+      "description": "Get help for banking services and issue resolution.",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "timingLabel": "Working Hours",
+      "phoneValue": "+91 1800 1080",
+      "emailValue": "support@icicibank.com",
+      "timingValue": "Mon-Sat, 9:00 AM - 8:00 PM"
+    }
+  },
+  "summary": {
+    "balanceTitle": "Portfolio Value",
+    "balanceDesc": "As of Mar 24, 2026 · 11:55 IST",
+    "investmentTitle": "Investments",
+    "investmentDesc": "Mutual funds and fixed deposits",
+    "loanTitle": "Total Outstanding",
+    "loanDesc": "Home loan and personal loan"
+  },
+  "actions": {
+    "title": "Quick Actions",
+    "description": "Use banking shortcuts to complete common operations.",
+    "transferFunds": "Transfer Funds",
+    "payBills": "Pay Bills",
+    "openFd": "Open FD",
+    "requestCard": "Request Card"
+  },
+  "forms": {
+    "transfer": {
+      "title": "Fund Transfer Form",
+      "from": "From Account",
+      "fromPlaceholder": "Enter source account",
+      "to": "To Account",
+      "toPlaceholder": "Enter destination account",
+      "amount": "Amount",
+      "amountPlaceholder": "Enter amount",
+      "submit": "Transfer Now"
+    },
+    "account": {
+      "title": "Open New Account",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter email address",
+      "type": "Account Type",
+      "typePlaceholder": "Select account type",
+      "types": {
+        "savings": "Savings",
+        "current": "Current",
+        "salary": "Salary"
+      },
+      "submit": "Create Account"
+    }
+  },
+  "charts": {
+    "trendTitle": "Monthly Income Trend",
+    "trendLabel": "Last 6 Months",
+    "expenseTitle": "Expense Distribution",
+    "cardTitle": "Cards by Status",
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun"
+    },
+    "expense": {
+      "housing": "Housing",
+      "utilities": "Utilities",
+      "shopping": "Shopping",
+      "travel": "Travel"
+    },
+    "cards": {
+      "active": "Active",
+      "blocked": "Blocked",
+      "pending": "Pending"
+    }
+  }
+}

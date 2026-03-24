@@ -1,0 +1,109 @@
+{
+  "header": {
+    "bankName": "بنك ICICI",
+    "portalTitle": "لوحة التحكم المصرفية الذكية",
+    "contact": "اتصل بنا 1800 1080",
+    "demo": "عرض تجريبي",
+    "user": "SHASHIDHARA N R",
+    "logout": "تسجيل الخروج"
+  },
+  "navigation": {
+    "ariaLabel": "التنقل الرئيسي",
+    "accounts": "الحسابات",
+    "paymentsTransfer": "الدفع والتحويل",
+    "cards": "البطاقات",
+    "customerSupport": "دعم العملاء"
+  },
+  "pages": {
+    "accounts": {
+      "title": "نظرة عامة على الحسابات",
+      "description": "اعرض أرصدة الحسابات والإجراءات والنماذج والرسوم المالية."
+    },
+    "paymentsTransfer": {
+      "title": "الدفع والتحويل",
+      "description": "إدارة دفع الفواتير وتحويل الأموال."
+    },
+    "cards": {
+      "title": "البطاقات",
+      "description": "راجع محفظة بطاقاتك ومؤشرات حالة البطاقات."
+    },
+    "customerSupport": {
+      "title": "دعم العملاء",
+      "description": "احصل على المساعدة لخدمات البنك وحل المشكلات.",
+      "phoneLabel": "الهاتف",
+      "emailLabel": "البريد الإلكتروني",
+      "timingLabel": "ساعات العمل",
+      "phoneValue": "+91 1800 1080",
+      "emailValue": "support@icicibank.com",
+      "timingValue": "الاثنين-السبت، 9:00 ص - 8:00 م"
+    }
+  },
+  "summary": {
+    "balanceTitle": "قيمة المحفظة",
+    "balanceDesc": "اعتبارًا من 24 مارس 2026 · 11:55 IST",
+    "investmentTitle": "الاستثمارات",
+    "investmentDesc": "الصناديق المشتركة والودائع الثابتة",
+    "loanTitle": "إجمالي المستحقات",
+    "loanDesc": "قرض السكن والقرض الشخصي"
+  },
+  "actions": {
+    "title": "إجراءات سريعة",
+    "description": "استخدم اختصارات مصرفية لإكمال العمليات الشائعة بسرعة.",
+    "transferFunds": "تحويل الأموال",
+    "payBills": "دفع الفواتير",
+    "openFd": "فتح وديعة ثابتة",
+    "requestCard": "طلب بطاقة"
+  },
+  "forms": {
+    "transfer": {
+      "title": "نموذج تحويل الأموال",
+      "from": "من الحساب",
+      "fromPlaceholder": "أدخل حساب المصدر",
+      "to": "إلى الحساب",
+      "toPlaceholder": "أدخل حساب الوجهة",
+      "amount": "المبلغ",
+      "amountPlaceholder": "أدخل المبلغ",
+      "submit": "حوّل الآن"
+    },
+    "account": {
+      "title": "فتح حساب جديد",
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "أدخل الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "أدخل البريد الإلكتروني",
+      "type": "نوع الحساب",
+      "typePlaceholder": "اختر نوع الحساب",
+      "types": {
+        "savings": "توفير",
+        "current": "جاري",
+        "salary": "راتب"
+      },
+      "submit": "إنشاء الحساب"
+    }
+  },
+  "charts": {
+    "trendTitle": "اتجاه الدخل الشهري",
+    "trendLabel": "آخر 6 أشهر",
+    "expenseTitle": "توزيع المصروفات",
+    "cardTitle": "البطاقات حسب الحالة",
+    "months": {
+      "jan": "ينا",
+      "feb": "فبر",
+      "mar": "مار",
+      "apr": "أبر",
+      "may": "ماي",
+      "jun": "يون"
+    },
+    "expense": {
+      "housing": "السكن",
+      "utilities": "الخدمات",
+      "shopping": "التسوق",
+      "travel": "السفر"
+    },
+    "cards": {
+      "active": "نشطة",
+      "blocked": "محظورة",
+      "pending": "قيد الانتظار"
+    }
+  }
+}
